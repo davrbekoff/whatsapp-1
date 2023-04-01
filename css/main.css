@@ -1,0 +1,97 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+}
+img {
+  width: 100%;
+}
+button {
+  background-color: inherit;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.row {
+  display: flex;
+}
+header {
+  margin: 15px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+}
+ul.main_menu {
+  display: flex;
+}
+ul.main_menu li {
+}
+ul.main_menu li a {
+  padding: 10px 15px;
+  border-radius: 100px;
+  color: #43d854;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+}
+ul.main_menu li a:hover {
+  color: #fff;
+  background-color: #43d854;
+}
+.header_down a {
+  background-color: #43d854;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-self: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+section.main {
+  padding: 30px 100px;
+  border-radius: 20px;
+  background: url("https://i.pinimg.com/originals/b5/e4/b2/b5e4b2c5660807a83f1926574556ea75.jpg")
+    no-repeat center/cover;
+}
+section.main .row {
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+section.main .main_text {
+  max-width: 45%;
+  color: #eee;
+  font-size: 20px;
+  text-shadow: 0 0 30px #0c1250;
+}
+section.main h1.title {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 90px;
+}
+section.main h1.title span {
+  display: flex;
+  align-items: center;
+  font-size: 146px;
+}
