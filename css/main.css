@@ -11,8 +11,22 @@
   border: none;
   outline: none;
 }
+body {
+  background: #fcf5eb;
+}
 img {
   width: 100%;
+}
+h1.title {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 90px;
+}
+h2.title {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 0 0 30px;
 }
 button {
   background-color: inherit;
@@ -37,8 +51,6 @@ header {
 ul.main_menu {
   display: flex;
 }
-ul.main_menu li {
-}
 ul.main_menu li a {
   padding: 10px 15px;
   border-radius: 100px;
@@ -48,6 +60,7 @@ ul.main_menu li a {
   align-items: center;
   gap: 5px;
   font-size: 18px;
+  font-weight: 500;
 }
 ul.main_menu li a:hover {
   color: #fff;
@@ -70,8 +83,7 @@ ul.main_menu li a:hover {
 section.main {
   padding: 30px 100px;
   border-radius: 20px;
-  background: url("https://i.pinimg.com/originals/b5/e4/b2/b5e4b2c5660807a83f1926574556ea75.jpg")
-    no-repeat center/cover;
+  background: url("../img/header_bg.jpg") no-repeat center/cover;
 }
 section.main .row {
   align-items: center;
@@ -84,14 +96,62 @@ section.main .main_text {
   font-size: 20px;
   text-shadow: 0 0 30px #0c1250;
 }
-section.main h1.title {
-  font-size: 60px;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 90px;
-}
 section.main h1.title span {
   display: flex;
   align-items: center;
   font-size: 146px;
+}
+section.about {
+}
+.about_bg {
+  height: 300px;
+}
+.about_bg.top {
+  background: url("../img/about_1.png") no-repeat center/contain;
+}
+.about_bg.bottom {
+  background: url("../img/about_2.png") no-repeat center/contain;
+}
+p.about_content {
+  margin: auto;
+  width: 850px;
+  font-size: 42px;
+  text-align: center;
+}
+section.features {
+}
+section.features article {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+section.features article .features_image {
+  width: 25%;
+  padding: 20px 0;
+  font-size: 120px;
+}
+section.features article .features_title {
+  width: 60%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #43d854;
+}
+section.features article .features_title p {
+  margin: 0 0 20px;
+  color: #2c2c2c;
+  font-size: 22px;
+}
+button.more a {
+  background-color: #43d854;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  display: flex;
 }
